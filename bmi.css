@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  outline: none; border:none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+} 
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+:root{
+    --main-color:#156106;
+    --black:#0d6102;
+    --bg:#04492f;
+    --border:.1rem solid rgba(255,255,255,.3);
+}
+nav{
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background: #01886b;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+}
+nav .logo{
+  color: rgb(1, 44, 30);
+  font-size: 35px;
+  font-weight: 600;
+}
+nav .logo span{
+    color: rgb(2, 245, 172);
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li{
+  margin: 0 5px;
+}
+nav ul li a{
+    position: relative;
+    color: #f5f5f5;
+    height: 50px;
+    width: 130px;
+    display: block;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    background-image: linear-gradient(115deg,#07fc30,#05aa58,#026824,#014612,#012c089c);
+}
+nav ul li a:hover{
+    letter-spacing: .3rem;
+}
+nav .menu-btn i{
+ color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+nav ul li a span{
+  height: 88%;
+  width: 96%;
+  background: rgb(1, 85, 67);
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 30px;
+  line-height: 50px;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
+}
+input[type="checkbox"]{
+  display: none;
+}
+@media (max-width: 1000px){
+  nav{
+    padding: 0 40px 0 50px;
+  }
+}
+@media (max-width: 920px) {
+  nav .menu-btn i{
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+  nav ul{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #111;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  #click:checked ~ ul{
+    left: 0;
+  }
+  nav ul li{
+    width: 100%;
+    margin: 40px 0;
+  }
+  nav ul li a{
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li a{
+    margin-left: 0px;
+  }
+  nav ul li a.active,
+  nav ul li a:hover{
+    background: none;
+    color: rgb(2, 92, 65);
+  }
+}
+body {
+     background: url(img/Untitled\ design\ \(9\)1.png) no-repeat ; 
+     background-size: cover;
+    background-position: center;
+    place-items: center;
+    height: 100vh;
+    display: grid;
+}
+
+.home{
+    min-height: 100vh;
+    padding: 30px;
+    display: flex;
+    align-items: center; 
+}
+#container {
+    height: 400px;
+    width: 700px; 
+    background: rgb(3, 248, 154);
+    display: flex;
+    flex-direction: row;
+    border-radius: 40px 0;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px #01463af6, -2px -2px 4px #013f37ea;
+}
+#calculator,
+#guide {
+    color: black;
+    height: 400px;
+    width: 350px;
+    padding: 20px;
+}
+#guide {
+    background: rgb(1, 95, 64);
+}
+#calculator h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0;
+    color: rgb(1, 44, 30);
+}
+#guide h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0;
+    
+}
+#guide h2 {
+    color: rgb(1, 51, 22);
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+#calculator input[type="text"] {
+    height: 45px;
+    width: 310px;
+    margin: 10px 0;
+    padding: 0px 15px;
+    border: 2px solid #09ce6c;
+    outline: none;
+    background: #04c289;
+    color: #013632;
+    font-size: 15px;
+    font-weight: 800;
+}
+#calculator input[type="text"]::placeholder {
+    color: #033b21;
+}
+#calculator input[type="submit"] {
+    height: 50px;
+    width: 310px;
+    margin: 20px 0;
+    padding: 0px 15px;
+    border: none;
+    outline: none;
+    background: #014d40;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 800;
+    cursor: pointer;
+}
+#calculator #yourBMI {
+    font-size: 20px;
+    color: #01412e;
+    font-weight: 800;
+}
+#guide ul {
+    padding: 0 20px;
+}
+#guide ul li {
+    height: 50px;
+    font-size: 16px;
+    color: rgb(2, 243, 163);
+}

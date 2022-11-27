@@ -1,0 +1,121 @@
+#nara{
+  background: red;
+}
+#aaam{
+  font-size: 36px;
+  color: rgb(88, 5, 5);
+  margin-top: 16px;
+  font-weight: 700;
+}
+#harshit{
+  background: rgb(7, 221, 203);
+  padding: 20px;
+  box-shadow: 0 0 1rem 2rem rgba(14, 13, 13, 0.295);
+}
+#amma{
+  color: white;
+  font-size: 22px;
+  background: rgb(105, 226, 216);
+  text-align: center;
+  margin: 5px;
+  padding: 7px 35px;
+  border: 1px solid white;
+  border-radius: 25px;
+  transition: .5s;
+}
+#amma:hover{
+  background: linear-gradient(rgb(4, 238, 255), rgb(225, 242, 245)), url(img1/bc3.png);
+}
+#rara{
+  color: rgb(243, 233, 233);
+  font-weight: 600;
+  font-size: 20px;
+  background: rgba(89, 145, 4, 0.548);
+  margin: 6px;
+  border: 0.3px solid rgb(238, 227, 227);
+  border-radius: 25px;
+  padding: 10px;
+  text-align: center;  
+  transition: .5s;
+}
+#rara:hover{
+  background: rgb(211, 177, 39);
+}
+#ram{
+  background: transparent;
+}
+#sam{
+  background: transparent;
+}
+#baba{
+  color: rgb(110, 44, 55);
+  font-weight: 600;
+  font-size: 20px;
+  background: rgba(223, 162, 172, 0.61);
+  margin: 6px;
+  border: 0.3px solid white;
+  border-radius: 25px;
+  padding: 10px;
+  text-align: center;
+  transition: .5s;
+}
+#baba:hover{
+  background: deeppink;
+}
+body{
+    font-family: poppins;
+    background: white;  
+}
+.carousel{
+   box-shadow: 0 0 1rem 2rem rgba(14, 13, 13, 0.295);
+}
+header .carousel-inner .item{
+    height: 100vh;
+}
+.carousel-caption h2{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold; 
+}
+.carousel-caption h2 span{
+    color: darkgreen;
+}
+.carousel-caption a{
+    background: linear-gradient(rgba(32, 31, 31, 0.808), rgba(136, 12, 3, 0.562)), url(img/slider1.png);
+    padding: 15px 35px;
+    display: inline-block;
+    border: 1px solid white;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 25px;
+    transition: 0.6s;
+}
+.carousel-caption a:hover{
+    color: gold;
+    border: 1px solid white;
+    background: linear-gradient(rgba(255, 255, 255, 0.616), rgba(27, 27, 27, 0.781) ), url(img/slider1.png);
+}
+  .heading3{
+    box-shadow: 0 .5rem 3rem rgba(0, 0, 0, 0.801);
+    color: rgb(5, 5, 5);
+    background: rgba(240, 243, 240, 0.644);
+    text-align: center;
+    font-size: 30px;
+  }
+  #gunjan{
+    box-shadow: 0 0 2rem 1rem rgba(15, 15, 15, 0.527); 
+  }
+ #ganesh{
+  box-shadow: 0 0 2rem 1rem rgba(0, 0, 0, 0.507); 
+ }
+ #contact{
+  box-shadow: 0 0 2rem 2rem rgba(27, 4, 235, 0.411);  
+ }
+
+
+
+
+ 

@@ -1,0 +1,82 @@
+body{
+    font-family: poppins;
+    background:url(img/background\ gt.png) ;
+    
+}
+
+.heading3{
+    color: white;
+    background: rgba(47, 224, 47, 0.644);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .text-gray-600{
+   background-size: cover;
+    
+    /* background: linear-gradient(rgba(70, 69, 69, 0.274), rgba(80, 78, 78, 0.267)), url(img/bg5.png) ; */
+  }
+
+  .text-gray-600 h3{
+    color: white;
+    font-size: 20px;
+  }
+  .text-gray-600 h2{
+    color: rgba(255, 255, 255, 0.562);
+    font-size: 20px;
+  }
+  .text-gray-600 p {
+    color: rgb(244, 245, 244);
+   font-size: 17px;
+   text-decoration: none;
+   
+  }
+  .text-gray-600 p a{
+    color: white;
+    font-size: 20px;
+    background: rgba(7, 206, 73, 0.527);
+    padding: 4px 40px;
+    border: 1px solid silver ;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: 0.5s;
+  }
+  .text-gray-600 p a:hover{
+    color: black;
+    background: white;
+   letter-spacing: 0.4rem;
+   
+  }
+  /* .bg3{
+    background:  linear-gradient(rgba(255, 255, 255, 0.062),rgba(252, 252, 252, 0.034)), url(img/bg8.png) ;
+    
+  }
+  .bg3 h1{
+    background: transparent;
+  } */
+  .text-gray-600 img{
+  
+    
+    box-shadow: 4rem 3rem 5rem rgba(0, 0, 0, 0.801);
+  }
+  /* .bg3 a{
+    color: white;
+    text-decoration: none;
+  }
+  .bg3 h1{
+    color: rgb(240, 245, 240);
+    font-size: 4s0px;
+  }
+  .bg3 h2{
+    color: rgb(250, 252, 250);
+    font-size: 30px;
+  }
+  .bg3 .flex span{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+  } */
+  .bf2678{
+    background-color: black;
+  }

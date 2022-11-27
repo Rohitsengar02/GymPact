@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- meta charset -->
+    <meta charset="utf-8" />
+    <!-- meta viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- meta description -->
+        <meta name="description" content="Your BMI is the key to have a measurment of your body. is your body is under weight, healthy or over weight">
+        <!-- meta keywords -->
+        <meta class="keywords" content="Health, Fitness, Diets, weight loss, weight gain , Exercies, BMI, supplements, GYM , cardio, proteins, Bcaas, Six pack , workouts">
+        <!-- title -->
+        <title>GYM pacts-calculate your BMI</title>
+    <!-- css -->
+    <link rel="stylesheet" href="bmi.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">GYM<span>Pacts</span></div>
+      <input type="checkbox" id="click" />
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li>
+          <a href="index.html"> <span> Home</span></a>
+        </li>
+        <li>
+          <a href="yoga.html"> <span>Yoga </span> </a>
+        </li>
+        <li>
+          <a href="bmi2.html"> <span> Your BMI </span> </a>
+        </li>
+        <li>
+          <a href="vegdiet.html"> <span> Diets </span> </a>
+        </li>
+        <li>
+          <a href="contact.html"> <span> Contact </span> </a>
+        </li>
+        <li>
+          <a href="#"> <span> About </span> </a>
+        </li>
+      </ul>
+    </nav>
+    <div id="container">
+      <div id="calculator">
+        <h2>CALCULATE</h2>
+        <input type="text" name="bmi" id="weight" placeholder="Weight In KG" />
+        <input type="text" name="bmi" id="height" placeholder="Height In CM" />
+        <input type="submit" value="Calculate" id="calculate" />
+        <div id="yourBMI">Your BMI Is : <span>00</span></div>
+      </div>
+      <div id="guide">
+        <h2>GUIDE</h2>
+        <ul>
+          <li>Under Weight = Less Then 18.5 BMI</li>
+          <li>Normal Weight = 18.5 To 24.9 BMI</li>
+          <li>Over Weight = 25 To 29.9 BMI</li>
+          <li>Obesity = 30 Or Greater BMI</li>
+        </ul>
+      </div>
+    </div>
+    <script src="files.js"></script>
+  </body>
+</html>
